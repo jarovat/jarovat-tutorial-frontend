@@ -11,7 +11,7 @@ on:
       - develop
 
 env:
-  APP_NAME: jarovat-tutorial-frontend
+  APP_NAME: jarovat-tutorial-fontend
   CONTAINER_REPOSITORY: "acrjarovattutorial001.azurecr.io"
   IMAGE_TAG: "0.0.1-SNAPSHOT"
 
