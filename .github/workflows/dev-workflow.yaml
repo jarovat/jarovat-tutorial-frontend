@@ -20,7 +20,7 @@ job:
     name: UnitTest
     runs-on: ubuntu-latest
     environment: dev
-    
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -35,7 +35,7 @@ job:
 
     - name: Unit test
       run: npm run test:unit
-
+      
     - name: Upload Reports
       uses: actions/upload-artifact@v2
       with:
