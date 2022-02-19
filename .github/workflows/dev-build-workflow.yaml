@@ -16,7 +16,7 @@ env:
   IMAGE_TAG: "0.0.1-SNAPSHOT"
 
 jobs:
-unitest:
+  unitest:
     name: UnitTest
     runs-on: ubuntu-latest
     environment: dev
