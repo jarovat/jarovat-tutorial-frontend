@@ -95,7 +95,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: dev
-      url: https://github.com/jarovat/jarovat-tutorial-pipeline/actions/workflows/dev-tutorial-fontend-deploy.yml
+      url: https://github.com/jarovat/jarovat-tutorial-pipeline/actions/workflows/dev-tutorial-frontend-deploy.yml
     needs: [unitest,analyze] # if on env sit don't use
     
     steps:
@@ -124,6 +124,6 @@ jobs:
       with:
         token: ${{ secrets.REPO_ACCESS_TOKEN }}
         repository: jarovat/jarovat-tutorial-pipeline
-        event-type: jarovat-tutorial-fontend-cd-dev
+        event-type: jarovat-tutorial-frontend-cd-dev
         client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
     
