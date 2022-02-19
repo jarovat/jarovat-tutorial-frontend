@@ -11,8 +11,8 @@ on:
       - develop
 
 env:
-  APP_NAME: kie-tutorial-backend
-  CONTAINER_REPOSITORY: "acrkietutorial001.azurecr.io"
+  APP_NAME: jarovat-tutorial-backend
+  CONTAINER_REPOSITORY: "acrjarovattutorial001.azurecr.io"
   IMAGE_TAG: "0.0.1-SNAPSHOT"
 
 jobs:
